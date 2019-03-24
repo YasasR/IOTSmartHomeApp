@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.a_yas.smarthomeapp.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="?attr/colorPrimary"
+            gauge:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:paddingTop="5dp">
+
+                    <com.example.a_yas.smarthomeapp.GradientCircleGauge
+                        android:id="@+id/temp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        gauge:additionalLabel="TIMESTAMP"
+                        gauge:animation="true"
+                        gauge:backgroundColor="#bdbdbd"
+                        gauge:backgroundVisible="true"
+                        gauge:foregroundEndColor="@color/md_red_900"
+                        gauge:foregroundStartColor="@color/md_red_300"
+                        gauge:progressLabel="Celsius"
+                        gauge:titleText="TEMPERATURE"
+                        gauge:titleTextRadius="73dp"
+                        gauge:titleTextSize="15sp" />
+
+                    <com.example.a_yas.smarthomeapp.GradientCircleGauge
+                        android:id="@+id/hue"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:padding="8dp"
+                        gauge:additionalLabel="TIMESTAMP"
+                        gauge:animation="true"
+                        gauge:backgroundColor="#bdbdbd"
+                        gauge:backgroundVisible="true"
+                        gauge:foregroundEndColor="@color/md_blue_900"
+                        gauge:foregroundStartColor="@color/md_blue_300"
+                        gauge:titleText="HUMIDITY"
+                        gauge:titleTextSize="15sp" />
+
+                </LinearLayout>
+
+                <com.example.a_yas.smarthomeapp.GradientCircleGaugeLarge
+                    android:id="@+id/gas"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:paddingTop="5dp"
+                    gauge:additionalLabel="TIMESTAMP"
+                    gauge:animation="true"
+                    gauge:backgroundColor="#bdbdbd"
+                    gauge:backgroundVisible="true"
+                    gauge:foregroundEndColor="@color/md_lime_900"
+                    gauge:foregroundStartColor="@color/md_lime_300"
+                    gauge:titleText="FLAMMABLE_GAS"
+                    gauge:titleTextSize="15sp" />
+
+                <com.example.a_yas.smarthomeapp.GradientCircleGaugeLarge
+                    android:id="@+id/gas2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:paddingTop="5dp"
+                    gauge:additionalLabel="TIMESTAMP"
+                    gauge:animation="true"
+                    gauge:backgroundColor="#bdbdbd"
+                    gauge:backgroundVisible="true"
+                    gauge:foregroundEndColor="@color/md_yellow_900"
+                    gauge:foregroundStartColor="@color/md_yellow_400"
+                    gauge:titleText="FLAMMABLE_GAS"
+                    gauge:titleTextSize="15sp" />
+
+
+                <com.example.a_yas.smarthomeapp.GradientCircleGaugeLarge
+                    android:id="@+id/lpg"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:paddingTop="5dp"
+                    gauge:additionalLabel="TIMESTAMP"
+                    gauge:animation="true"
+                    gauge:backgroundColor="#bdbdbd"
+                    gauge:backgroundVisible="true"
+                    gauge:foregroundEndColor="@color/md_orange_900"
+                    gauge:foregroundStartColor="@color/md_orange_200"
+                    gauge:titleText="LPG"
+                    gauge:titleTextSize="15sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+</android.support.design.widget.CoordinatorLayout>
+

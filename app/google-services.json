@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1054921255422",
+    "firebase_url": "https://finalproject-5b065.firebaseio.com",
+    "project_id": "finalproject-5b065",
+    "storage_bucket": "finalproject-5b065.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054921255422:android:c139d027f079f54d",
+        "android_client_info": {
+          "package_name": "com.example.a_yas.smart_home_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054921255422-t8bnf4ah7ac1m6a0jicpgn1ekm5vt0qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a_yas.smart_home_application",
+            "certificate_hash": "785eedf7e239235c6db9658c18aa372ea891d438"
+          }
+        },
+        {
+          "client_id": "1054921255422-co85jp6hvlnugbudfnn6rvevkogciitt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUAnHPA7_zCPNVN9vi3E-N7MvNA3PnBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054921255422-co85jp6hvlnugbudfnn6rvevkogciitt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054921255422:android:dcf51e6aad0507e8",
+        "android_client_info": {
+          "package_name": "com.example.a_yas.smarthomeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054921255422-hjnbsif7il38bn8llus7tmhsbv7utj0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a_yas.smarthomeapp",
+            "certificate_hash": "785eedf7e239235c6db9658c18aa372ea891d438"
+          }
+        },
+        {
+          "client_id": "1054921255422-co85jp6hvlnugbudfnn6rvevkogciitt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaUAnHPA7_zCPNVN9vi3E-N7MvNA3PnBA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054921255422-co85jp6hvlnugbudfnn6rvevkogciitt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
